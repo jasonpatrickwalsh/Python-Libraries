@@ -58,8 +58,9 @@ JASON_HTML_LIB.PY
 		-returns a formatted row using a passed list of entries (s0)
 	
 JASON_CSV_LIB.PY
+
 	*file_to_full_list(s0,s1,s2)
 		-opens a csv file (s0), and grabs every row where column s1 matches s2.
 		-example: (example.csv,"Name","Walsh, Jason")
 		-this would return every row where my name is in the name field.
--columns are seperated with a pipe (|) and rows are seperated with a newline character (\n)
+		-columns are seperated with a pipe (|) and rows are seperated with a newline character (\n)
